@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+        <meta name="theme-color" content="#00A870">
+        <meta name="description" content="" />
+        <meta name="keywords" content="." />
+        <meta property="og:url" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="pt_BR" />
+        <link rel="icon" href="" sizes="62x62" type="image/png" />
+        <title>| Front End</title>
+    </head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="icon-active" viewBox="0 0 45.2 70.208">
+            <title>ActiveCampaign</title>
+            <path d="M79.19,81.854a5.546,5.546,0,0,0,3.368-1.324c1.389-.982,2.61-1.794,2.61-1.794l.421-.3-.421-.3C85,78.01,66.685,65.113,64.79,63.875A2.642,2.642,0,0,0,62.1,63.49a2.323,2.323,0,0,0-1.179,2.178v4.4l.168.085c.126.085,12.715,8.968,15.158,10.634A5,5,0,0,0,79.19,81.854Z" transform="translate(-60.917 -43.931)" fill="#ec5dec" />
+            <path d="M103.821,66.731c-1.095-.811-40.378-28.613-42.062-29.809l-.547-.384v6.833c0,2.178,1.137,2.989,2.526,4.014,0,0,30.147,21.31,33.894,23.915C93.885,73.948,65.506,93.892,63.7,95.045c-2.147,1.452-2.358,2.392-2.358,4.356v7.345s41.557-30.15,42.441-30.833h0a5.583,5.583,0,0,0,2.358-4.4v-.769A4.757,4.757,0,0,0,103.821,66.731Z" transform="translate(-61.001 -36.538)" fill="#ec5dec" />
+        </symbol>
+        <symbol id="icon-mailchimp" viewBox="0 0 65.84 71">
+            <title>MailChimp</title>
+            <path d="M56.6,33.55a5.661,5.661,0,0,1,1.45,0,5.118,5.118,0,0,0,.07-2.787c-.35-1.689-.817-2.713-1.788-2.553s-1.009,1.384-.659,3.074a5.756,5.756,0,0,0,.93,2.266Zm-8.342,1.337c.7.311,1.123.515,1.289.337.108-.112.076-.325-.087-.6a4.084,4.084,0,0,0-1.8-1.47,4.834,4.834,0,0,0-4.766.58c-.467.346-.9.828-.846,1.118.023.095.09.166.254.189a29.777,29.777,0,0,1,3.267-.74,5.6,5.6,0,0,1,2.689.589Zm-1.4.811a3.281,3.281,0,0,0-1.724.731,1.135,1.135,0,0,0-.443.7l.07.169.149.059a2.733,2.733,0,0,0,.665-.189,5.684,5.684,0,0,1,2.917-.308c.452.053.671.083.767-.077a.267.267,0,0,0-.023-.3,2.618,2.618,0,0,0-2.374-.787Zm6.927,2.976a1.1,1.1,0,0,0,1.511-.266,1.133,1.133,0,0,0-.715-1.382,1.1,1.1,0,0,0-1.511.266A1.133,1.133,0,0,0,53.789,38.674Zm3.952-3.509c-.5-.009-.916.547-.925,1.245s.382,1.266.881,1.275.916-.547.927-1.242-.385-1.266-.884-1.278ZM24.188,47.718c-.122-.157-.327-.109-.525-.062a1.859,1.859,0,0,1-.467.065,1.008,1.008,0,0,1-.852-.438,1.643,1.643,0,0,1,.035-1.491l.117-.272c.4-.911,1.073-2.441.321-3.9a3.4,3.4,0,0,0-2.6-1.923,3.313,3.313,0,0,0-2.867,1.05,4.219,4.219,0,0,0-1.062,3.52c.079.216.2.278.289.29.19.027.467-.112.642-.592l.05-.154a4.652,4.652,0,0,1,.458-1.095,2.006,2.006,0,0,1,1.269-.88,1.983,1.983,0,0,1,1.511.289,2.01,2.01,0,0,1,.744,2.4,5.644,5.644,0,0,0-.388,2.13,2.112,2.112,0,0,0,1.861,2.189,1.585,1.585,0,0,0,1.5-.763.331.331,0,0,0-.029-.37v0Zm46.156-2.769c-.029-.109-.228-.846-.5-1.734l-.554-1.509a5.569,5.569,0,0,0,.968-3.994,5.079,5.079,0,0,0-1.447-2.852,11.6,11.6,0,0,0-5.1-2.568l-1.3-.367c-.006-.053-.067-3.115-.125-4.429a15.252,15.252,0,0,0-.572-3.89,10.439,10.439,0,0,0-2.654-4.813c3.237-3.408,5.259-7.165,5.253-10.387-.009-6.2-7.5-8.076-16.73-4.189l-1.954.843q-1.791-1.788-3.587-3.571C31.509-7.839-1.394,29.323,9.124,38.352l2.3,1.976a11.646,11.646,0,0,0-.642,5.3,10.5,10.5,0,0,0,3.552,6.7A10.713,10.713,0,0,0,21.3,55.187c4.092,9.585,13.446,15.466,24.412,15.8,11.766.355,21.641-5.254,25.783-15.33a21.457,21.457,0,0,0,1.417-6.706c0-2.828-1.572-4-2.572-4ZM22.211,52.492a5.58,5.58,0,0,1-1.091.08,8.54,8.54,0,0,1-7.773-7.2c-.423-4.26,1.721-7.538,5.512-8.313a6.386,6.386,0,0,1,1.6-.118c2.126.118,5.259,1.775,5.973,6.482.633,4.165-.373,8.41-4.217,9.076ZM18.244,34.506a9.021,9.021,0,0,0-5.717,3.7,15.735,15.735,0,0,1-2.43-2.378c-2.033-3.92,2.217-11.543,5.186-15.848C22.625,9.346,34.11,1.293,39.433,2.754,40.3,3,43.161,6.375,43.161,6.375a74.785,74.785,0,0,0-10.249,7.177c-6.644,5.2-11.664,12.753-14.671,20.954ZM55.539,50.9a.213.213,0,0,0,.122-.21.2.2,0,0,0-.071-.134.194.194,0,0,0-.144-.043,24.483,24.483,0,0,1-10.824-1.121c.572-1.89,2.094-1.207,4.4-1.018a31.682,31.682,0,0,0,10.617-1.166A24.267,24.267,0,0,0,67.576,43.2a16.591,16.591,0,0,1,1.108,3.84,1.818,1.818,0,0,1,1.164.216c.5.314.866.964.615,2.648a14.746,14.746,0,0,1-4.037,8.047,16.64,16.64,0,0,1-4.85,3.68,20.315,20.315,0,0,1-3.165,1.361c-8.336,2.766-16.87-.275-19.62-6.8a10.7,10.7,0,0,1-.554-1.544,13.707,13.707,0,0,1,2.937-12.718,1.168,1.168,0,0,0,.385-.757,1.36,1.36,0,0,0-.3-.719c-1.088-1.6-4.859-4.337-4.1-9.626.542-3.8,3.815-6.476,6.863-6.316l.773.044c1.321.08,2.473.251,3.564.3a7.049,7.049,0,0,0,5.4-1.831,4.152,4.152,0,0,1,2.065-1.186,2.491,2.491,0,0,1,.787-.077,2.576,2.576,0,0,1,1.33.432c1.555,1.05,1.773,3.594,1.855,5.458.047,1.065.172,3.633.216,4.372.1,1.686.534,1.923,1.417,2.219.5.169.96.293,1.639.485a9.2,9.2,0,0,1,4.045,1.95,2.587,2.587,0,0,1,.738,1.47c.245,1.8-1.371,4.02-5.652,6.038A28.325,28.325,0,0,1,47.921,46.5l-1.374-.157c-3.138-.429-4.926,3.689-3.045,6.511,1.213,1.819,4.521,3,7.825,3,7.583,0,13.411-3.287,15.578-6.13l.175-.251c.1-.163.018-.251-.117-.16-1.77,1.231-9.637,6.121-18.054,4.647a10.919,10.919,0,0,1-1.954-.538,3.531,3.531,0,0,1-2.479-2.636c6.79,2.133,11.063.115,11.063.115Zm-10.757-1.29,0,0v-.006ZM31.792,19.939a31.082,31.082,0,0,1,8.7-7.221.115.115,0,0,1,.152.157,8.443,8.443,0,0,0-.808,2,.119.119,0,0,0,.048.123.115.115,0,0,0,.13,0,16.75,16.75,0,0,1,7.636-2.736.122.122,0,0,1,.079.219,6.559,6.559,0,0,0-1.2,1.222.12.12,0,0,0-.012.123.117.117,0,0,0,.1.067A14.762,14.762,0,0,1,53,15.6c.117.068.035.3-.1.272a25.557,25.557,0,0,0-11.562.03,26.341,26.341,0,0,0-9.386,4.216.12.12,0,0,1-.16-.177Z" transform="translate(-7.076 -0.001)" fill="#ec5dec" />
+        </symbol>
+        <symbol id="icon-facebook" viewBox="0 0 70 71">
+            <title>Facebook Ads</title>
+            <path d="M61.448,0A8.618,8.618,0,0,1,70,8.674V62.326A8.618,8.618,0,0,1,61.448,71H46.892V44.248H56l1.732-11.457H46.892V25.356c0-3.134,1.514-6.19,6.368-6.19h4.928V9.412a59.279,59.279,0,0,0-8.748-.774c-8.926,0-14.76,5.487-14.76,15.421v8.732H24.758V44.248H34.68V71H8.552A8.618,8.618,0,0,1,0,62.326V8.674A8.618,8.618,0,0,1,8.552,0h52.9Z" transform="translate(0 0)" fill="#ec5dec" fill-rule="evenodd" />
+        </symbol>
+        <symbol id="icon-google" viewBox="0 -5 70 71">
+            <title>Google Ads</title>
+            <path d="M3.433,54.275,26.69,13.889c2.954,1.764,17.852,10.126,20.257,11.717L23.69,65.994C21.146,69.4.21,59.447,3.433,54.273Z" transform="translate(-1.821 -8.089)" fill="#ec5dec" />
+            <path d="M101.717,46.186,78.46,5.8A11.768,11.768,0,0,0,62.454,1.561,11.483,11.483,0,0,0,58.2,17.519L81.46,57.907A11.7,11.7,0,0,0,101.717,46.19Z" transform="translate(-33.283 0)" fill="#bf09bf" />
+            <path d="M11.675,0A11.612,11.612,0,0,1,23.349,11.547,11.612,11.612,0,0,1,11.675,23.095,11.612,11.612,0,0,1,0,11.547,11.612,11.612,0,0,1,11.675,0Z" transform="translate(0 40.612)" fill="#ab58fe" />
+        </symbol>
+        <symbol id="icon-tiktok" viewBox="0 0 70 71">
+            <title>TikTok Ads</title>
+            <path d="M76.154,19.615H33.077A13.559,13.559,0,0,0,19.615,33.269V76.962A13.559,13.559,0,0,0,33.077,90.615H76.154A13.559,13.559,0,0,0,89.615,76.962V33.269A13.559,13.559,0,0,0,76.154,19.615Zm8.077,57.346a8.135,8.135,0,0,1-8.077,8.192H33.077A8.135,8.135,0,0,1,25,76.962V33.269a8.135,8.135,0,0,1,8.077-8.192H76.154a8.135,8.135,0,0,1,8.077,8.192Z" transform="translate(-19.615 -19.615)" fill="#ec5dec" />
+            <path d="M93.846,63.231a8.135,8.135,0,0,1-8.077-8.192,2.693,2.693,0,1,0-5.385,0V82.346a8.078,8.078,0,1,1-8.077-8.192,2.731,2.731,0,0,0,0-5.462A13.655,13.655,0,1,0,85.769,82.346V65.962a13.124,13.124,0,0,0,8.077,2.731,2.731,2.731,0,0,0,0-5.462Z" transform="translate(-42.692 -38.654)" fill="#ec5dec" />
+        </symbol>
+        <symbol id="icon-whatsapp" viewBox='0 0 70 70'>
+            <g transform="translate(-1.522 -1.522)">
+                <path d="M36.522,1.522a35.2,35.2,0,0,0-35,35A34.556,34.556,0,0,0,7.609,56.3L3.652,68.174a1.338,1.338,0,0,0,.3,1.522,2.012,2.012,0,0,0,1.826.3l12.174-3.957a33.909,33.909,0,0,0,18.565,5.478,35.2,35.2,0,0,0,35-35A35.2,35.2,0,0,0,36.522,1.522Zm21,49.3c-.913,2.739-4.565,5.174-7.609,5.783-.609,0-1.217.3-2.13.3-2.435,0-5.478-.913-10.348-2.739-6.087-2.435-12.174-7.913-17.043-14.913l-.3-.3c-1.826-2.435-4.565-6.7-4.565-11.261a13.5,13.5,0,0,1,3.652-9.13,6.194,6.194,0,0,1,4.565-1.826h1.217c1.522,0,2.435.609,3.348,2.435l.609,1.217c.913,2.13,2.13,5.478,2.435,6.087a2.753,2.753,0,0,1,0,3.043,6.367,6.367,0,0,1-1.217,1.826c-.3.3-.609.609-.609.913l-.913.913v.3a27.858,27.858,0,0,0,5.174,6.391,24.7,24.7,0,0,0,7,4.565h.3c.3,0,.609.3.609,0,.609-.609,1.217-1.826,2.13-2.739l.3-.3A3.607,3.607,0,0,1,46.87,39.87a1.83,1.83,0,0,1,1.217.3c.3,0,.913.3,6.7,3.348l.609.3c.913.3,1.522.609,1.826,1.522C58.435,45.957,58.13,48.7,57.522,50.826Z" />
+            </g>
+        </symbol>
+        <symbol id="icon-insta" viewBox='0 0 70 70'>
+            <g transform="translate(-5.264 -7.398)">
+                <circle cx="6.26" cy="6.26" r="6.26" transform="translate(33.719 36.422)" />
+                <path d="M47.8,27.317H32.154a7.775,7.775,0,0,0-5.549,1.992,7.775,7.775,0,0,0-1.992,5.549v15.65A7.842,7.842,0,0,0,26.748,56.2,8.021,8.021,0,0,0,32.3,58.19H47.8A7.775,7.775,0,0,0,53.353,56.2a7.288,7.288,0,0,0,2.134-5.549V35A8.021,8.021,0,0,0,53.5,29.451,7.618,7.618,0,0,0,47.8,27.317Zm-7.825,25.04a9.675,9.675,0,1,1,0-19.349,9.676,9.676,0,1,1,0,19.349Zm10.1-17.5a2.276,2.276,0,1,1,2.276-2.276A2.247,2.247,0,0,1,50.081,34.857Z" " />
+                <path d=" M40.264,7.4a35,35,0,1,0,35,35A34.974,34.974,0,0,0,40.264,7.4ZM58.9,50.65a11.278,11.278,0,0,1-3.13,8.11A11.072,11.072,0,0,1,47.8,61.747H32.3a11.072,11.072,0,0,1-7.967-2.988,10.719,10.719,0,0,1-3.13-8.11V35c0-6.545,4.411-11.1,11.1-11.1h15.65A10.492,10.492,0,0,1,58.9,35V50.65Z" />
+            </g>
+        </symbol>
+        <symbol id="icon-github" viewBox='0 0 70 70'>
+            <<g transform="translate(-5 -5)">
+                <path d="M40,5C20.672,5,5,21.063,5,40.891A35.822,35.822,0,0,0,28.938,74.938c1.75.328,2.391-.781,2.391-1.734,0-.859-.031-3.109-.047-6.109-9.734,2.172-11.8-4.812-11.8-4.812-1.594-4.141-3.891-5.25-3.891-5.25-3.172-2.234.234-2.187.234-2.187,3.516.25,5.359,3.7,5.359,3.7,3.125,5.484,8.188,3.906,10.188,2.984a7.71,7.71,0,0,1,2.219-4.8C25.828,55.828,17.656,52.75,17.656,39a14.047,14.047,0,0,1,3.594-9.625,13.212,13.212,0,0,1,.344-9.5s2.938-.969,9.625,3.672a32.533,32.533,0,0,1,17.531,0c6.688-4.641,9.609-3.672,9.609-3.672a13.212,13.212,0,0,1,.344,9.5A14.1,14.1,0,0,1,62.3,39c0,13.781-8.187,16.813-15.984,17.7,1.25,1.109,2.375,3.3,2.375,6.641,0,4.8-.047,8.672-.047,9.844,0,.953.625,2.078,2.406,1.719A35.753,35.753,0,0,0,75,40.891C75,21.063,59.328,5,40,5Z" />
+                </g>
+        </symbol>
+    </svg>
+
+
+    <header>
+        <div class="grid-120">
+            <div class="header-icon">
+                <a href="index.html" class="header-icon-name">iimatos</a>
+                <span class="separador-horizontal-small"></span>
+                <p class="header-icon-tex">Front End Developer</p>
+            </div>
+            <nav class=header-menu style="display: none;">
+                <a href="https://api.whatsapp.com/send?phone=5538991336561&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20as%20p%C3%A1ginas." class="header-btn" rel="noopener" target="_blank">Contato</a>
+                <a href="#section-portfolio" class="header-btn">Portfolio</a>
+                <a href="#section-faq" class="header-btn">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section_hero">
+        <div class="grid-120">
+            <div class="section_hero_text">
+                <span class="separador-horizontal-medium"></span>
+                <h1 class="text_title">
+                    Páginas que <span class="purple">vendem</span> e design que <span class="purple">impressiona</span>
+                </h1>
+                <span class="separador-horizontal-medium"></span>
+                <p class="text_text_2rem">Desenvolvimento de páginas para o seu lançamento, com <span class="text_semibold">código</span> e <span class="text_semibold">design</span> de qualidade.</p>
+                <div class="section_hero_btns">
+                    <a href="https://api.whatsapp.com/send?phone=5538991336561&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20as%20p%C3%A1ginas." class="btn" rel="noopener" target="_blank">Contato</a>
+                    <span class="separador-horizontal-small"></span>
+                    <a href="#section-briefing" class="hero_more">Saber mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_steps" id="section-briefing">
+        <div class="grid-120">
+            <h1 class="text_subtitle">As Etapas</h1>
+            <div class="section_steps_briefing">
+                <div class="section_steps_briefing_nomes">
+                    <p>Briefing</p>
+                    <span class="separador-vertical-small"></span>
+                    <p>Prototipação</p>
+                    <span class="separador-vertical-small"></span>
+                    <p>Desenvolvimento</p>
+                </div>
+                <ul class="section_steps_briefing_lista">
+                    <li class="briefing_item">
+                        <p>O briefing é essencial para a página, através dele vamos definir a identidade visual do projeto, público-alvo e o caminho correto para antigir a expecativa do cliente.</p>
+                    </li>
+                    <li class="briefing_item">
+                        <p>Finalizado o briefing, se inicia a fase de prototipação. Nessa fase cuidaremos do visual da página que será enviado para aprovação do cliente.</p>
+                    </li>
+                    <li class="briefing_item">
+                        <p>Por último é iniciado o desenvolvimento da página. Durante essa etapa vamos nos assegurar de entregar uma página que será leve e rápida</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="section_suporte">
+                <h2 class="text_subtitle">Suporte | Integrações</h2>
+                <p>A integração com plataformas de e-mail marketing e tráfego são realizadas através da configuração criada pelo cliente, <span>sem custo adicional.</span></p>
+                <p>Caso você não tenha conhecimento sobre hospedagens, fique tranquilo. <span>Irei auxiliar em todo o processo</span>. Desde a escolha do domínio até a escolha da hospedagem.</p>
+                <ul class="section_suporte_lista">
+                    <li class="suporte_item">
+                        <svg>
+                            <use xlink:href="#icon-active"></use>
+                        </svg>
+                    </li>
+                    <li class="suporte_item">
+                        <svg>
+                            <use xlink:href="#icon-mailchimp"></use>
+                        </svg>
+                    </li>
+                    <li class="suporte_item">
+                        <svg>
+                            <use xlink:href="#icon-facebook"></use>
+                        </svg>
+                    </li>
+                    <li class="suporte_item">
+                        <svg>
+                            <use xlink:href="#icon-google"></use>
+                        </svg>
+                    </li>
+                    <li class="suporte_item">
+                        <svg>
+                            <use xlink:href="#icon-tiktok"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="section_prazo">
+                <h2 class="text_subtitle">Prazo</h2>
+                <p>O prazo para entrega do projeto depende da sua extensão, esse prazo será definido junto ao cliente.</p>
+                <p>Os projetos, em média, são finalizados entre 5 e 7 dias.</p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5538991336561&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20as%20p%C3%A1ginas." class="btn section_prazo_btn" target="_blank">Orçamento</a>
+    </section>
+
+    <section class="section_portfolio" id="section-portfolio">
+        <div class="grid-120">
+            <h1 class="text_subtitle">Portfolio</h1>
+            <p>Aqui você pode visualizar alguns trabalhos realizados.</p>
+            <ul class="section_portfolio_lista">
+
+                <li class="portfolio_item"><img src="assets/imgs/hero-anti-570.jpg" srcset="assets/imgs/hero-anti-570-2x.jpg 2x" alt="Manual do Anti Divórcio - Seção Hero">
+                    <div class="portfolio_hover">
+                        <p class="text_medium">Página de Vendas</p>
+                        <p>Design criado por <a href="https://www.behance.net/guilhermesobral1" rel="noopener" target="_blank"><span class="text_semibold">Guilherme Sobral</span></a></p>
+                    </div>
+                </li>
+
+                <li class="portfolio_item"><img src="assets/imgs/hero-proteka-570.jpg" srcset="assets/imgs/hero-proteka-570-2x.jpg 2x" alt="Proteka - Seção Hero">
+                    <div class="portfolio_hover">
+                        <p class="text_medium">Página de Captura</p>
+                        <p>Design criado por <a href="https://www.behance.net/guilhermesobral1" rel="noopener" target="_blank"><span class="text_semibold">Guilherme Sobral</span></a></p>
+                    </div>
+                </li>
+
+                <li class="portfolio_item"><img src="assets/imgs/hero-feltrin-570.jpg" srcset="assets/imgs/hero-feltrin-570-2x.jpg 2x" alt="Semana Especial Doce Natal - Seção Hero">
+                    <div class="portfolio_hover">
+                        <p class="text_medium">Página de Captura</p>
+                        <p>Design criado por <a href="https://www.behance.net/igormatos4" rel="noopener" target="_blank"><span class="text_semibold">Igor Matos</span></a></p>
+                    </div>
+                </li>
+
+                <li class="portfolio_item"><img src="assets/imgs/hero-feltrin-vendas-570.jpg" srcset="assets/imgs/hero-feltrin-vendas-570-2x.jpg 2x" alt="Descomplicando a confeitaria - Seção Hero">
+                    <div class="portfolio_hover">
+                        <p class="text_medium">Página de Vendas</p>
+                        <p>Design criado por <a href="https://www.behance.net/guilhermesobral1" rel="noopener" target="_blank"><span class="text_semibold">Guilherme Sobral</span></a></p>
+                    </div>
+                </li>
+
+                <li class="portfolio_item"><img src="assets/imgs/hero-cmm-570.jpg" srcset="assets/imgs/hero-cmm-570-2x.jpg 2x" alt="CMM - Clínicas Odontológicas Integradas - Seção Hero">
+                    <div class="portfolio_hover">
+                        <p class="text_medium">Página de Serviços</p>
+                        <p>Design criado por <a href="https://www.behance.net/igormatos4" rel="noopener" target="_blank"><span class="text_semibold">Igor Matos</span></a></p>
+                    </div>
+                </li>
+
+            </ul>
+            <a href="https://api.whatsapp.com/send?phone=5538991336561&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20as%20p%C3%A1ginas." class="btn section_portfolio_btn" target="_blank" rel="noopener">Desenvolver</a>
+        </div>
+    </section>
+
+    <section class="section_faq" id="section-faq">
+        <h1 class="text_subtitle">Perguntas Frequentes</h1>
+        <ul class="section_faq_accordion">
+
+            <li class="faq_item">
+                <div class="faq_item_question">
+                    <p>A página é responsiva?</p>
+                    <span class="faq_item_question_button">+</span>
+                </div>
+                <div class="faq_item_resposta">
+                    <p>A página é desenvolvida para se adaptar às diversas telas de dispositivos.</p>
+                </div>
+            </li>
+
+            <li class="faq_item">
+                <div class="faq_item_question">
+                    <p>Quais os valores de hospedagem e domínio?</p>
+                    <span class="faq_item_question_button">+</span>
+                </div>
+                <div class="faq_item_resposta">
+                    <p>O valor da hospedagem é diretamente ligado ao desempenho da mesma. <span class="text_semibold">Hospedagens de alta performance</span> tendem a ter um valor mais alto.</p>
+                    <p>É preciso analisar o número de acessos esperado, período de acesso, horários de pico entre outras questões para definirmos a melhor escolha. Em regra, para alta performance e escala, utilizamos hospedagens VPS.</p>
+                    <p>Quanto ao domínio, para nomes disponíveis, os valores ficam entre R$ 40 e R$ 60. Podendo ser adquiridos no registro BR, Google Domains e outras registradoras.</p>
+
+                </div>
+            </li>
+
+            <li class="faq_item">
+                <div class="faq_item_question">
+                    <p>O site é em Wordpress e Elementor?</p>
+                    <span class="faq_item_question_button">+</span>
+                </div>
+                <div class="faq_item_resposta">
+                    <p>A página poderá ser desenvolvida através de page builders se for a preferência do cliente. Senão, a página será criada do zero através de código próprio.</p>
+                </div>
+            </li>
+
+            <li class="faq_item">
+                <div class="faq_item_question">
+                    <p>Qual o valor da página?</p>
+                    <span class="faq_item_question_button">+</span>
+                </div>
+                <div class="faq_item_resposta">
+                    <p>Fora do caso concreto é difícil de estipular um valor, entretanto o preço base é de R$ 500 para qualquer página. Evoluindo, o valor, de acordo com a extensão da mesma.</p>
+                    <p>Não fique com receio de entrar em contato e pedir um orçamento, é grátis e eu ficarei muito feliz em tirar em suas dúvidas. <a href="https://api.whatsapp.com/send?phone=5538991336561&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20as%20p%C3%A1ginas." rel="noopener" target="_blank"><span class="text_medium">Clique aqui.</span></a></p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="grid-120">
+            <p>Todos os Direitos Reservados &copy 2021</p>
+            <div class="footer_icons_social">
+                <a href="https://api.whatsapp.com/send?phone=5538991336561&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20as%20p%C3%A1ginas." rel="noopener" target="_blank">
+                    <svg>
+                        <use xlink:href="#icon-whatsapp"></use>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/oiimatos/" rel="noopener" target="_blank">
+                    <svg>
+                        <use xlink:href="#icon-insta"></use>
+                    </svg>
+                </a>
+                <a href="https://github.com/iimatos" rel="noopener" target="_blank">
+                    <svg>
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src=" js/main.js"></script>
+</body>
+
+</html>
