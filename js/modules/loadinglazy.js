@@ -3,7 +3,7 @@ export default function lazy() {
     const lazyImages = document.querySelectorAll('img[data-src]');
     const options = {
       root: null,
-      rootMargin: '0px',
+      rootMargin: '0px 0px 300px 0px',
       threshold: 0.2,
     };
     const show = (entries) => {
@@ -11,6 +11,7 @@ export default function lazy() {
         if (entry.isIntersecting) {
           const img = entry.target;
           img.src = img.dataset.src;
+          // img.srcset = img.dataset.srcset;
           observer.unobserve(img);
         }
       });
