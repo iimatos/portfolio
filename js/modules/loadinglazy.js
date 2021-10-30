@@ -4,7 +4,7 @@ export default function lazy() {
     const options = {
       root: null,
       rootMargin: '0px 0px 300px 0px',
-      threshold: 0.2,
+      threshold: 0.1,
     };
     const show = (entries) => {
       entries.forEach((entry) => {
