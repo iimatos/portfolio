@@ -1,5 +1,5 @@
 export default function isOnView() {
-  const questions = document.querySelectorAll('.faq_item_question');
+  const questions = document.querySelectorAll('.faq_box_question');
 
   const options = {
     root: null,
@@ -11,7 +11,7 @@ export default function isOnView() {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         const item = entry.target;
-        item.classList.add('animateFaq');
+        item.classList.add('spinButton');
       }
     });
   }
